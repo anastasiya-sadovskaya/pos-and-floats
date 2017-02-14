@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol, ul {
+	list-style: none;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Myriad Pro'), local('MyriadPro'), url(MyriadPro-Regular.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+*{
+	box-sizing: border-box;
+	font-size:0;
+}
+
+body{
+	height:2000px;
+	font-family:"Myriad Pro", sans-serif;
+}
+
+.wrapper{
+	width:562px;
+	height:2000px;
+	margin:0 auto;
+	padding-top: 200px;
+}
+
+.block{
+	width:522px;
+	height:745px;
+	position:relative;
+	border:solid 2px #000;
+}
+
+.block-front{
+	bottom: 20px;
+	right: 20px;
+	background-color: #ebebeb;
+	padding:30px;
+}
+
+.block-middle{
+	bottom: 20px;
+	right: 20px;
+	background-color: #ccc;
+}
+
+.block-back{
+	/* position: static; */
+	background-color: #acacac;
+	float: right;
+}
+
+.sticker{
+	position: absolute;
+	top: 38px;
+	right: -83px;
+	width:110px;
+	height: 35px;
+	border: solid 2px #000;
+	border-radius: 0 10px 10px 0;
+	background-color: #f68e56;
+	/* padding-left: 18px; */
+}
+
+.sticker-1{
+	right:-17px;
+	background-color: #00aeef;
+}
+
+.sticker-2{
+	right:-50px;
+	background-color: #39b54a;
+}
+
+h1{
+	font-size:24px;
+	margin:10px 0;
+}
+
+.img1{
+	margin:0 23px 15px 0;
+}
+
+.img2{
+	margin-left:6px;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.jockes {
+	margin-top:15px;
+}
+
+p{
+	font-size:12px;
+}
+
+
+
+.center {
+	margin:20px 0;
+}
+
+.center:after{
+	content:'';
+	display: block;
+	clear:both;
+}
+
+h2{
+	font-size:18px;
+}
+
+.footer{
+	display:block;
+	padding:27px 0 17px;
+	font-size:9px;
+	text-align:center;
+	clear:both;
+}
+
+.soc{
+	position:fixed;
+	bottom:0;
+	right:0;
+	background-color: #fbaf5d;
+	width:90px;
+	height:70px;
+	border:solid 2px #000;
+	text-align:center;
+	font-size:16px;
+	padding:8px 0;
+}
+
+.soc img{
+	margin-top:6px;
+}
