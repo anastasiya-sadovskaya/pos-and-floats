@@ -51,7 +51,7 @@ ol, ul {
 body{
 	height:2000px;
 	font-family:"Myriad Pro", sans-serif;
-	padding: 200px;
+	padding: 200px 0;
 }
 
 .wrapper{
@@ -145,7 +145,7 @@ p{
 
 
 
-section {
+.with-margin {
 	margin:20px 0;
 }
 
@@ -179,12 +179,22 @@ footer{
 	padding:8px 0;
 }
 
-.soc img{
+
+.soc-icon{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:10px;
 	margin-top:6px;
 }
 
+.soc-icon:not(:last-child){
+	margin-right:5px;
+}
+
+
 .clearfix:after{
 	content:'';
-	clear:both;
+	clear: both;
 	display: block;
 }
